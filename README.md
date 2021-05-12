@@ -5,4 +5,5 @@ We have modified it for our own use case
 
 Download the file and put it in /src folder
 
-##Useage
+## Useage
+<FormatedTextView body={'text'} isDarkMode={true} />
