@@ -5,7 +5,15 @@ We have modified it for our own use case
 
 Download the file and put it in /src folder
 
+### Why use FormatedTextView
+* Uses only react-native
+* Doesn't interfere with your existing text styling
+* Gives an alert, asking if the users want to open the link
+* Supports dark mode
+
 ## Useage
 ```js
-<FormatedTextView body={'text'} isDarkMode={true} />
+<Text style={styles.body}>
+  <FormatedTextView body={'text'} isDarkMode={true} />
+ </Text>
 ```
